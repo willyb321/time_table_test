@@ -1,4 +1,4 @@
-# TimeTableTest
+# TimeTable Test
 
 > My TimeTableTest app built with Electron
 
