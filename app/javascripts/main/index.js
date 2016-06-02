@@ -10,8 +10,9 @@ electron.app.on('ready', function() {
 
   window = new electron.BrowserWindow({
     title: json.name,
-    width: 800,
-    height: 600
+    //width: 800,
+    //height: 600
+    useContentSize: true
   });
 
   window.loadURL('file://' + path.join(__dirname, '..', '..') + '/index.html');
